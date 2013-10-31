@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1" >
+    <TableRow>
+        <EditText
+            android:id="@+id/message"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:layout_span="3" 
+            android:hint="Enter a message"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/en"
+            android:layout_marginLeft="20dip"
+            android:text="encode"
+             android:layout_weight="1" android:layout_width="0dip"/>
+
+        <Button
+            android:id="@+id/de"
+            android:layout_marginRight="20dip"
+            android:text="decode"
+            android:layout_weight="1" android:layout_width="0dip"/>
+    </TableRow>
+    <TextView 
+        android:id="@+id/result_message_encoded"
+        />
+    <TextView 
+        android:id="@+id/result_message_decoded"
+        />
+    <TextView
+        android:id="@+id/result_encoding_matrix"
+        />
+    <TextView
+        android:id="@+id/result_decoding_matrix"
+        />
+  
+
+</TableLayout>
+</ScrollView>

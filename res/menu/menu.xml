@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/copy"
+          android:title="copy result (message encoded)" />
+    <item android:id="@+id/edit_encoding" 
+          android:title="Edit Encoding Matrix"></item>
+    <item android:id="@+id/edit_decoding" 
+          android:title="Edit Decoding Matrix"></item>
+</menu>
